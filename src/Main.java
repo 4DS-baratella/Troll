@@ -27,7 +27,7 @@ public class Main {
                 }catch (InputMismatchException e){
                     System.out.println("\nLa scelta deve essere un numero intero.");
                 }
-            }while (!checkScelta);
+            }while (!checkScelta || scelta < 1 || scelta > 2);
 
             switch (scelta) {
                 case 1:
