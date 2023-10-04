@@ -20,4 +20,8 @@ public class Troll {
         }
         return flag;
     }
+
+    public int getVita(){
+        return this.vita;
+    }
 }
