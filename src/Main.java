@@ -34,5 +34,7 @@ public class Main {
                 case 2 -> troll.attaccoSubito(25);
             }
         }
+
+        System.out.println("\nComplimenti! Hai sconfitto il troll!");
     }
 }
