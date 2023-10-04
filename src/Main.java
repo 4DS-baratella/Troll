@@ -30,8 +30,14 @@ public class Main {
             }while (!checkScelta);
 
             switch (scelta) {
-                case 1 -> troll.attaccoSubito(10);
-                case 2 -> troll.attaccoSubito(25);
+                case 1:
+                    troll.attaccoSubito(10);
+                    System.out.println("\nLa vita rimasta del troll è: " + troll.getVita());
+                    break;
+                case 2:
+                    troll.attaccoSubito(25);
+                    System.out.println("\nLa vita rimasta del troll è: " + troll.getVita());
+                    break;
             }
         }
 
