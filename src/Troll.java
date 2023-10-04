@@ -12,4 +12,12 @@ public class Troll {
     public void attaccoSubito(int attacco){
         this.vita -= attacco;
     }
+
+    public boolean ancoraVivo(){
+        boolean flag = false;
+        if(this.vita > 0){
+            flag = true;
+        }
+        return flag;
+    }
 }
