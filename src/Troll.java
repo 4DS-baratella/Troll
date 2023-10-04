@@ -8,4 +8,8 @@ public class Troll {
             throw new Exception("\nLa vita non può essere minore di 0.");
         }
     }
+
+    public void attaccoSubito(int attacco){
+        this.vita -= attacco;
+    }
 }
